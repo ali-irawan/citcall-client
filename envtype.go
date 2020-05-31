@@ -16,8 +16,8 @@ const (
 
 // TODO should read from config
 var typeString = map[EnvironmentType]string{
-	Sandbox:    "http://104.199.196.122/v3",
-	Production: "http://104.199.196.122/v3",
+	Sandbox:    "http://104.199.196.122/gateway/v3",
+	Production: "http://104.199.196.122/gateway/v3",
 }
 
 // implement stringer
